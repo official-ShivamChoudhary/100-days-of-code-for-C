@@ -1,0 +1,2087 @@
+                                                                       C PROGRAMMING CODING PURPOSE
+
+
+1.  WAP to print Hello World.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	printf("Hello World");
+	getch();
+	}
+	
+Output:- 
+Hello World
+
+2. WAP to print Addition.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,sum;
+	printf("\n Enter the number");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	sum=a+b;
+	printf("\n Addition is:- %d",sum);
+	getch();
+	}
+
+Output:-
+
+
+ Enter the number5
+
+ Enter the second number:-4
+
+ Addition is:- 9
+
+3. WAP to print Substraction.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,sub;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	sub=a-b;
+	printf("\n Substraction is: %d",sub);
+	getch();
+	}
+	
+Output:-
+
+
+ Enter the first number:-4
+
+ Enter the second number:-5
+
+ Substraction is: -1
+
+4. WAP to print multiplication.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,mul;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	mul=a*b;
+	printf("\n Multiplication is: %d",mul);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the first number:-4
+
+ Enter the second number:-5
+
+ Multiplication is: 20
+
+5. WAP to print division.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,div;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	div=a/b;
+	printf("\n Division is: %d",div);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the first number:-5
+
+ Enter the second number:-4
+
+ Division is: 1
+
+6. WAP to print calculator.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,sum,sub,mul,div;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	sum=a+b;
+	sub=a-b;
+	mul=a*b;
+	div=a/b;
+	printf("\n Addition is:- %d",sum);
+	printf("\n Substraction is: %d",sub);
+	printf("\n Multiplication is:- %d",mul);
+	printf("\n Division is: %d",div);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the first number:-4
+
+ Enter the second number:-5
+
+ Addition is:- 9
+ Substraction is: -1
+ Multiplication is:- 20
+ Division is: 0
+
+7. WAP to print Enter the marks of a student in five subjects and calculate the total aggregate.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int phy,che,math,eng,comp,avg,total;
+	printf("\n Enter the physics marks:-");
+	scanf("%d",&phy);
+	printf("\n Enter the chemistry marks:-");
+	scanf("%d",&che);
+	printf("\n Enter the mathematics marks:-");
+	scanf("%d",&math);
+	printf("\n Enter the english marks:-");
+	scanf("%d",&eng);
+	printf("\n Enter the computer marks:-");
+	scanf("%d",&comp);
+	avg=(phy+che+math+eng+comp)/5;
+	total=phy+che+math+eng+comp;
+	printf("\n Average is:- %d",avg);
+	printf("\n Total is:- %d",total);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the physics marks:-1
+
+ Enter the chemistry marks:-2
+
+ Enter the mathematics marks:-3
+
+ Enter the english marks:-4
+
+ Enter the computer marks:-5
+
+ Average is:- 3
+ Total is:- 15
+
+8. WAP to calculate simple interest of 8% and find the total capital.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c;
+	printf("\n Enter the number:-");
+	scanf("%d",&a);
+	b=8*a/100;
+	c=a+8*a/100;
+	printf("\n Total is:- %d",c);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the number:-1000
+
+ Total is:- 1080
+
+9. WAP to find out the number is even or odd.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a;
+	printf("\n check the given number is even or odd:-");
+	scanf("%d",&a);
+	if(a%2==0)
+	printf("\n Even is:- %d",a);
+	else
+	printf("\n Odd is:- %d",a);
+	getch();
+	}
+	
+Output:-
+
+
+ check the given number is even or odd:-3
+
+ Odd is:- 3
+
+ check the given number is even or odd:-4
+
+ Even is:- 4
+
+10. WAP to find out the student is eligible by through out 60%.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	printf("\n Enter the third number:-");
+	scanf("%d",&c); 
+	if((a>=60) && (b>=60) && (c>=60))
+	printf("\n You are elisible");
+	printf("\n You are not elisible");
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the first number:-76
+
+ Enter the second number:-71
+
+ Enter the third number:-8.37
+
+ You are not elisible
+
+11. WAP to input one number and then decide number is positive or negative.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a;
+	printf("\n check the given number is positive or negative:-");
+	scanf("%d",&a);
+	if(a>=0)
+	printf("\n Number is positive");
+	else
+	printf("\n Number is Negative");
+	getch();
+	}
+	
+
+Output:-
+
+
+ check the given number is positive or negative:-4
+
+ Number is positive
+
+ check the given number is positive or negative:--6
+
+ Number is Negative
+
+12. WAP to input three distinct integer number and then print the largest among three distinct number.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,max;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	printf("\n Enter the third number:-");
+	scanf("%d",&c);
+	max=a;
+	if(b>=max)
+	max=b;
+	if(c>=max)
+	max=c;
+	printf("\n Largest number is:- %d",max);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the first number:-1
+
+ Enter the second number:-4
+
+ Enter the third number:-3
+
+ Largest number is:- 4
+
+13. WAP to input three distinct integer number and then print the smallest among three distinct number.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,min;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	printf("\n Enter the third number:-");
+	scanf("%d",&c);
+	min=a;
+	if(b<=min)
+	min=b;
+	if(c<=min)
+	min=c;
+	printf("\n Smallest number is:- %d",min);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the first number:-5
+
+ Enter the second number:-2
+
+ Enter the third number:-4
+
+ Smallest number is:- 2
+
+14. WAP to swap two number by using third variable.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	c=a;
+	a=b;
+	b=c;
+	printf("\n swap is:- %d%d",a,b);
+    getch();
+}
+
+Output:-
+
+ Enter the first number:-4
+ Enter the second number:-5
+ swap is:-8 4
+
+15. WAP to determine whether an entered character is a vowel using switch case.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char ch;
+	printf("\n Enter the character:-");
+	scanf("%c",&ch);
+	switch (ch)
+	{
+		case 'A':
+		case 'a':
+		printf("\n c is a vowel of %c",ch);
+		break;
+		case 'E':
+		case 'e':
+		printf("\n c is a vowel of %c",ch);
+		break;
+		case 'I':
+		case 'i':
+		printf("\n c is a vowel of %c",ch);
+		break;
+		case 'O':
+		case 'o':
+		printf("\n c is a vowel of %c",ch);
+		break;
+		case 'U':
+		case 'u':
+		printf("\n c is a vowel of %c",ch);
+		break;
+		default :
+		printf("\n c is not a vowel of %c",ch);
+		}
+		getch();
+	}
+
+Output:-                                                                                                          
+
+
+ Enter the character:-A
+
+ c is a vowel of A
+
+ Enter the character:-s
+
+ c is not a vowel of s
+
+ 
+16. WAP to print monday, tuesday, wednesday, thrusday, friday, saturday, sunday by using switch case.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n;
+	printf("\n Enter the number:-");
+	scanf("%d",&n);
+	switch (n)
+	{
+		case 1:
+		printf("\n Monday");
+		break;
+		case 2:
+		printf("\n Tuesday");
+		break;
+		case 3:
+		printf("\n Wednesday");
+		break;
+		case 4:
+		printf("\n Thrusday");
+		break;
+		case 5:
+		printf("\n Friday");
+		break;
+		case 6:
+		printf("\n Saturday");
+		break;
+		case 7:
+		printf("\n Sunday");
+		break;	
+		default :
+		printf("\n Week has only seven days");
+		}
+		getch();
+	}
+
+Output:-
+
+
+ Enter the number:-1
+
+ Monday
+
+ Enter the number:-9
+
+ Week has only seven days
+
+
+17. WAP to calculate the gross salary when the 1% basic salary is given by the 
+user and the DA is the 16% of the basic salary and TA is 5% of base salary.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,d;
+	printf("\n Enter the number:-");
+	scanf("%d",&a);
+	b=16*a/100;
+	c=5*a/100;
+	d=a+b+c;
+	printf("\n Gross salary is:- %d",d);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the number:-1000
+
+ Gross salary is:- 1210
+
+18. WAP to find whether a given year is a leap year or not.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int year;
+printf("\n Enter the year:-");
+scanf("%d",&year);
+if((year%4==0) && (year%100!=0) || (year%4==0))
+printf("\n Leap year is:- %d",year);
+else
+printf("\n Not a leap year is:- %d",year);	
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the year:-2000
+
+ Leap year is:- 2000
+
+ Enter the year:-2001
+
+ Not a leap year is:- 2001
+
+
+19. WAP to print no of week in a month.
+           print no of week in a year.
+           print no of month in a year.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int wm,wy,my;
+wm=30/7;
+wy=365/7;
+my=365/30;
+printf("\n week in a month is:- %d",wm);
+printf("\n week in a year is:- %d",wy);
+printf("\n month in a year is:- %d",my);
+    getch();
+	}
+	
+
+Output:-
+
+week in a month is:-4
+week in a year is:-52
+month in a year is:-12
+
+20. WAP to convert kilometer to meter and vice versa.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float km,m;
+printf("\n Enter the meter:-");
+scanf("%f",&m);
+km=m/1000;
+printf("\n kilometer is:- %f",km);
+printf("\n Enter the kilometer:-");
+scanf("%f",&km);
+m=km*1000;
+printf("\n meter is:- %f",m);
+    getch();
+	}
+	
+
+Output:-
+
+
+ Enter the meter:-4500
+
+ kilometer is:- 4.500000
+ Enter the kilometer:-
+100
+
+ meter is:- 100000.000000
+
+21. WAP Addition of two matrix.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3],b[3][3],c[3][3],i,j;
+printf("\n Enter the 9 number for a:-");
+for(i=0;i<3;i++)
+{
+	for(j=0;j<3;j++)
+	{
+		scanf("%d",&a[i][j]);
+		}
+		}
+		printf("\n Enter the 9 number for b:-");
+		for(i=0;i<3;i++)
+		{
+			for(j=0;j<3;j++)
+			{
+				scanf("%d",&b[i][j]);
+				}
+				}
+				for(i=0;i<3;i++)
+				{
+					for(j=0;j<3;j++)
+					{
+						c[i][j]=a[i][j]+b[i][j];
+						}
+						}
+						printf("\n Addition is:- \n");
+						for(i=0;i<3;i++)
+						{
+							for(j=0;j<3;j++)
+							{
+								printf("%d",c[i][j]);
+								}
+								printf("\n");
+								}
+    getch();
+	}
+	
+
+Output:-
+
+
+ Enter the 9 number for a:-1
+2
+3
+4
+5
+6
+7
+8
+9
+
+ Enter the 9 number for b:-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+ Addition is:-
+246
+81012
+141618
+
+
+22. WAP multiplication of two matrix.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3],b[3][3],c[3][3],i,j,k;
+printf("\n Enter the 9 number for a:-");
+for(i=0;i<3;i++)
+{
+	for(j=0;j<3;j++)
+	{
+		scanf("%d",&a[i][j]);
+		}
+		}
+		printf("\n Enter the 9 number for b:-");
+		for(i=0;i<3;i++)
+		{
+			for(j=0;j<3;j++)
+			{
+				scanf("%d",&b[i][j]);
+				}
+				}
+				for(i=0;i<3;i++)
+				{
+					for(j=0;j<3;j++)
+					{
+						c[i][j]=0;
+						for(k=0;k<3;k++)
+						{
+							c[i][j]=c[i][j]+a[i][k]*b[k][j];
+							}
+							}
+							}
+						printf("\n Multiplication is:- \n");
+						for(i=0;i<3;i++)
+						{
+							for(j=0;j<3;j++)
+							{
+								printf("%d",c[i][j]);
+								}
+								printf("\n");
+								}
+    getch();
+	}
+	
+
+Output:-
+
+ Enter the 9 number for a:-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+ Enter the 9 number for b:-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+ Multiplication is:-
+303642
+668196
+102126150
+
+23. WAP in c to print the transpose of given 3X3 matrix.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3]i,j,t; 
+printf("\n Enter the number:-");
+for(i=0;i<3;i++)
+{
+	for(j=0;j<3;j++)
+	{
+		scanf("%d",&a[i][j]);
+		}
+		}
+		
+	                		for(i=0;i<3;i++)
+				{
+					for(j=0;j<3;j++)
+					{
+					t=a[i][j];
+					a[i][j]=a[j][i];
+					a[j][i]=t;
+                  }
+              }
+						printf("\n Transpose is:- \n");
+						for(i=0;i<3;i++)
+						{
+							for(j=0;j<3;j++)
+							{
+								printf("%d",a[i][j]);
+								}
+								printf("\n");
+								}
+    getch();
+	}
+	
+
+Output:-
+
+ Enter the number:-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+ 
+Transpose is:-
+1 2 3
+4 5 6
+7 8 9
+
+24. WAP to input 3X3 matrix.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3],i,j;
+printf("\n Enter the number:-");
+for(i=0;i<3;i++)
+{
+	for(j=0;j<3;j++)
+	{
+		scanf("%d",&a[i][j]);
+		}
+	}	
+						printf("\n Numbers are:- \n");
+						for(i=0;i<3;i++)
+						{
+							for(j=0;j<3;j++)
+							{
+								printf("%d",a[i][j]);
+								}
+								printf("\n");
+								}
+    getch();
+	}
+	
+
+Output:-
+
+
+ Enter the number:-1
+2
+3
+4
+5
+6
+7
+8
+9
+
+ Numbers are:-
+123
+456
+789
+
+25. WAP to input one 3X3 array and then count total number of even or odd.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3],i,j,even=0,odd=0;
+printf("\n Enter the number:-");
+for(i=0;i<3;i++)
+{
+	for(j=0;j<3;j++)
+	{
+		scanf("%d",&a[i][j]);
+		}
+	}	
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			if(a[i][j]%2==0)
+			even=even+1;
+			else
+			odd=odd+1;
+			}
+			}
+			printf("\n Even is:- %d",even);
+			printf("\n Odd is:- %d",odd);
+    getch();
+	}
+	
+
+Output:-
+
+
+ Enter the number:-1
+2
+3
+4
+5
+6
+7
+8
+9
+
+ Even is:- 4
+ Odd is:- 5
+
+26. WAP to find largest ar maximum number from 3X3 matrix.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3],i,j,max;
+printf("\n Enter the number:-");
+for(i=0;i<3;i++)
+{
+	for(j=0;j<3;j++)
+	{
+		scanf("%d",&a[i][j]);
+		}
+	}	
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			if(a[i][j]>max)
+			max=a[i][j];
+		}
+	}
+		printf("\n Largest is:- %d",max);
+    getch();
+	}
+	
+
+Output:-
+
+
+ Enter the number:-5
+4
+3
+2
+1
+6
+7
+8
+9
+
+ Largest is:- 9
+
+27.  WAP to find smallest ar minimum number from 3X3 matrix.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28. star pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,n;
+printf("\n Enter the number:-");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+	for(j=0;j<i;j++)
+	{
+		printf(" * ");
+	}
+    	printf("\n");
+}
+    getch();
+	}
+
+      OR
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,n;
+for(i=0;i<5;i++)
+{
+	for(j=0;j<i;j++)
+	{
+		printf(" * ");
+	}
+    	printf("\n");
+}
+    getch();
+	}
+	
+	
+
+Output:-
+
+
+ Enter the number:-5
+ *
+ *  *
+ *  *  *
+ *  *  *  *
+ *  *  *  *  *
+
+29. star pattern
+#include<stdio.h>                                              
+#include<conio.h>
+void main()
+{
+int i,j,n;
+printf("\n Enter the number:-");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+	for(j=n;j>=i;j--)
+{
+		printf(" * ");
+	}
+    	printf("\n");
+}
+    getch();
+	}
+
+      OR
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j;
+for(i=1;i<=5;i++)
+      {
+	for(j=5;j>=i;j--)
+       {
+        printf(" * ");
+	}
+    	printf("\n");
+}
+    getch();
+	}
+
+	
+Output:-
+
+
+ Enter the number:-5
+ *  *  *  *  *
+ *  *  *  *
+ *  *  *
+ *  *
+ *
+
+30. star pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,n;
+printf("\n Enter the number:-");
+scanf("%d",&n);
+for(i=n;i>=0;i--)
+{
+	for(j=0;j<=n;j++)
+{
+	if(j<=i)
+	printf(" ");
+	else
+		printf(" * ");
+	}
+    	printf("\n");
+}
+    getch();
+	}
+	
+Output:-
+
+
+ Enter the number:-5
+
+     *
+    *  *
+   *  *  *
+  *  *  *  *
+
+
+31. star pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,n;
+printf("\n Enter the number:-");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+	for(j=1;j<=n;j++)
+{
+	if(j<=i)
+	printf("");
+	
+		printf(" * ");
+	}
+    	printf("\n");
+}
+    getch();
+	}
+	
+
+Output:-
+
+
+ Enter the number:-5
+ *  *  *  *  *
+ *  *  *  *  *
+ *  *  *  *  *
+ *  *  *  *  *
+ *  *  *  *  *
+
+32. star pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j;
+for(i=1;i<5;i++)
+{
+	for(j=1;j<5;j++)
+{
+	if(j<i)
+	printf(" ");
+	else
+		printf(" * ");
+	}
+    	printf("\n");
+}
+    getch();
+	}
+	
+
+Output:-
+
+ *  *  *  *  
+    *  *  *
+       *  *
+          *
+
+
+33. star pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j;
+for(i=5;i>=1;i--)
+{
+	for(j=1;j<=5;j++)
+{
+	if(j<=i)
+	printf(" ");
+	else
+		printf(" * ");
+	}
+    	printf("\n");
+}
+    getch();
+	}
+
+
+Output:-
+
+         *
+      *  *
+   *  *  *
+*  *  *  *  
+
+
+34. WAP to add 1 to n number without using formula.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,n,sum=0;
+	printf("\n Enter the nth number:-");
+	scanf("%d",&n);
+	for(i=0;i<=n;i++)
+	{
+		sum=sum+i;
+	}
+	printf("\n sum is:- %d",sum);
+	getch();
+}
+
+Output:-
+
+
+ Enter the nth number:-10
+
+ sum is:- 55
+
+35. WAP to print 1 to n number.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i;
+	for(i=1;i<=10;i++)
+	{
+	printf("\n %d",i);
+}
+	getch();
+}
+
+Output:-
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+36. WAP to find fibonabi series.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,n,a=0,b=1,c;
+	printf("\n Enter the number:-");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		printf("\n %d",a);
+		printf(" ");
+		c=a+b;
+		a=b;
+		b=c;
+		}
+		getch();
+		}
+		
+
+Output:-
+
+
+ Enter the number:-10
+
+ 0
+ 1
+ 1
+ 2
+ 3
+ 5
+ 8
+ 13
+ 21
+ 34
+
+37. WAP to find the number is perfect number or Not.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=1,num,sum=0;
+	printf("\n Enter the number:-");
+	scanf("%d",&num);
+	while(i<num)
+	{
+		if(num%i==0)
+		{
+			sum=sum+i;
+		}
+		i++;
+	}
+	if(sum==num)
+	printf("\n is a perfect number");
+	else
+	printf("\n is not a perfect number");
+		getch();
+		}
+		
+
+Output:-
+
+
+ Enter the number:-6
+
+ is a perfect number
+
+
+ Enter the number:-56
+
+ is not a perfect number
+
+38. WAP to find the number is Armstrong number or Not.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,n,r,result=0;
+	printf("\n Enter the number:-");
+	scanf("%d",&n);
+	a=n;
+	while(a!=0)
+	{
+		r=a%10;
+		result=result+(r*r*r);
+		{
+			a=a/10;
+		}
+	}
+	if(result==n)
+	printf("\n is an armstrong number");
+	else
+	printf("\n is not an armstrong number");
+		getch();
+		}
+		
+
+Output:-
+
+
+ Enter the number:-407
+
+ is an armstrong number
+
+ Enter the number:-354
+
+ is not an armstrong number
+
+39. WAP for printing all prime number up to nth number.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,n,fact;
+printf("\n Enter the range:-");
+scanf("%d",&n);
+for(i=2;i<=n;i++)
+{
+	fact=1;
+	for(j=2;j<=i/2;j++)
+	{
+		if(i%j==0)
+		{
+			fact=0;
+			break;
+		}
+	}
+	if(fact==1)
+	{
+		printf("%d",i);
+		}
+		printf(" ");
+		}
+		getch();
+		}
+		
+
+Output:-
+
+
+ Enter the range:-20
+2 3  5  7    11  13    17  19
+
+           OR
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,fact;
+for(i=2;i<=20;i++)
+{
+	fact=1;
+	for(j=2;j<=i/2;j++)
+	{
+		if(i%j==0)
+		{
+			fact=0;
+			break;
+		}
+	}
+	if(fact==1)
+	{
+		printf("%d",i);
+		}
+		printf(" ");
+		}
+		getch();
+		}
+		
+
+Output:-
+
+2 3  5  7    11  13    17  19
+
+
+40. WAP to Implement bubble sort technique.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int arr[5];
+int i,j,temp;
+for(i=0;i<5;i++)
+{
+	printf("\n Enter into index:-");
+	scanf("%d",&arr[i]);
+	}
+	printf("\n display you have entered:-");
+	for(i=0;i<5;i++)
+	{
+		printf("%d",arr[i]);
+		}
+		printf("\n display result after sorting:-");
+		for(i=0;i<5-1;i++)
+		{
+			for(j=i+1;j<5;j++)
+			{
+				if(arr[i]>arr[j])
+				{
+					temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+					}
+					}
+					}
+					for(i=0;i<5;i++)
+					{
+						printf("%d",arr[i]);
+						}
+						getch();
+						}
+						
+						
+						
+
+Output:-
+
+
+ Enter into index:-9
+
+ Enter into index:-8
+
+ Enter into index:-7
+
+ Enter into index:-6
+
+ Enter into index:-5
+
+ display you have entered:-98765
+ display result after sorting:-56789	
+ 
+
+41. WAP to find a number using linear search technique.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int arr[5];
+int i,n;
+char found='F';
+for(i=0;i<5;i++)
+{
+	printf("\n Enter into index:-");
+	scanf("%d",&arr[i]);
+	}
+	printf("\n display you have entered:-");
+	for(i=0;i<5;i++)
+	{
+		printf("%d",arr[i]);
+		}
+		printf("\n Enter the number that you want to search:-");
+		scanf("%d",&n);
+		for(i=0;i<5;i++)
+		{
+			if(arr[i]==n)
+			{
+				found='T';
+			printf("\n The number is found  at index is:- %d",i);
+			break;
+			}
+			}
+			if(found=='F')
+			printf("\n The number is not found at index:-");
+			getch();
+			}
+			
+		
+Output:-
+
+Enter into index:-1
+
+ Enter into index:-6
+
+ Enter into index:-2
+
+ Enter into index:-4
+
+ Enter into index:-5
+
+ display you have entered:-16245
+ Enter the number that you want to search:-2
+
+ The number is found at index is:- 2
+
+42. WAP to find a number using binary search technique.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int arr[5];
+	int i,j,temp,n;
+	int low,mid,high;
+	char found='F';
+	for(i=0;i<5;i++)
+	{
+		printf("\n Enter into index:-");
+		scanf("%d",&arr[i]);
+		}
+		for(i=0;i<5-1;i++)
+		{
+			for(j=i+1;j<5;j++)
+			{
+				if(arr[i]>arr[j])
+				{
+					temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+					}
+					}
+					}
+					printf("\n you have entered:-");
+					for(i=0;i<5;i++)
+					printf("%d",arr[i]);
+					printf("\n Enter the number that you want to search:-");
+					scanf("%d",&n);
+					low=0;
+					high=5-1;
+					while(low<=high)
+					{
+						mid=(low+high)/2;
+						if(n<arr[mid])
+						high=mid-1;
+						else
+						if(n>arr[mid])
+						low=mid+1;
+						else
+						{
+							found='T';
+							printf("\n the number is found at index is:- %d",mid);
+							break;
+							}
+							}
+							if(found=='F')
+							printf("\n the number is not found at index");
+							getch();
+							}
+							
+							
+Output:-
+
+ Enter into index:-9
+
+ Enter into index:-1
+
+ Enter into index:-8
+
+ Enter into index:-2
+
+ Enter into index:-7
+
+ you have entered:-12789
+ Enter the number that you want to search:-7
+
+ the number is found at index is:- 2
+
+43. WAP to print the ASCII value of a character.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char ch;
+	printf("\n Enter the character:-");
+	scanf("%c",&ch);
+	printf("\n The ASCII value of %c is:- %d",ch,ch);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the character:-A
+
+ The ASCII value of A is:- 65
+
+ Enter the character:-a
+
+ The ASCII value of a is:- 97
+
+44. WAP to find the largest of three number using ternarry operator.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,max;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	printf("\n Enter the third number:-");
+	scanf("%d",&c);
+	max=a>b?(a>c?a:c):(b>c?b:c);
+	printf("\n Largest number is:- %d",max);
+	getch();
+	}
+	
+
+Output:-
+
+
+ Enter the first number:-4
+
+ Enter the second number:-7
+
+ Enter the third number:-2
+
+ Largest number is:- 7
+
+
+
+45.WAP to find the smallest of three number using ternarry operator.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,min;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	printf("\n Enter the third number:-");
+	scanf("%d",&c);
+	min=a<b?(a<c?a:c):(b<c?b:c);
+	printf("\n smallest number is:- %d",min);
+	getch();
+	}
+		
+			
+Output:-
+
+
+ Enter the first number:-4
+
+ Enter the second number:-1
+
+ Enter the third number:-2
+
+ smallest number is:- 1
+
+46. WAP to print the following pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,j;
+	for(i=1;i<=5;i++)
+	{
+		printf("\n");
+		{
+			for(j=1;j<=i;j++)
+			printf("%d",j);
+			}
+			}
+			getch();
+			}
+			
+
+ouput:-
+
+1
+12
+123
+1234
+12345
+
+47. WAP to print the following pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,j;
+	for(i=1;i<=5;i++)
+	{
+		printf("\n");
+		{
+			for(j=1;j<=i;j++)
+			printf("%d",i);
+			}
+			}
+			getch();
+			}
+			
+Output:-
+
+1
+22
+333
+4444
+55555
+
+48.WAP to print the following pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,j,k,n;
+	for(i=1;i<=n;i++)
+	{
+		for(j=n;j>=i;j--)
+		printf(" ");
+		{
+			for(k=1;k<=i;k++)
+			printf("%d",k);
+			}
+			printf("\n");
+		}
+			getch();
+			}
+			
+Output:-
+
+
+
+
+    1
+   12
+  123
+ 1234
+12345
+
+49. WAP to print the reverse of a number.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,rev;
+	printf("\n Enter the number:-");
+	scanf("%d",&a);
+	printf("\n the reverse number is:-");
+	while(a!=0)
+	{
+		rev=a%10;
+		printf("%d",rev);
+		a=a/10;
+		}
+		getch();
+		}
+		
+		
+
+Output:-
+
+
+ Enter the number:-123
+
+ the reverse number is:-321
+
+50. WAP using for loop to print all the number from m to n there by classifying them as even odd.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,m,n;
+	printf("\n Enter the value of m:-");
+	scanf("%d",&m);
+	printf("\n Enter the value of n:-");
+	scanf("%d",&n);
+	for(i=m;i<=n;i++)
+	{
+		if(i%2==0)
+		printf("\n Even is:- %d",i);
+		else
+		printf("\n Odd is:- %d",i);
+		}
+		getch();
+		}
+		
+Output:-
+
+ Enter the value of m:-2
+
+ Enter the value of n:-9
+
+ Even is:- 2
+ Odd is:- 3
+ Even is:- 4
+ Odd is:- 5
+ Even is:- 6
+ Odd is:- 7
+ Even is:- 8
+ Odd is:- 9
+
+51. WAP for swapping 3 value using 4th variable.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,d;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	printf("\n Enter the third number:-");
+	scanf("%d",&c);
+	d=a;
+	a=b;
+	b=c;
+	c=d;
+	printf(" Swap is:- %d%d%d",a,b,c);
+	getch();
+		}
+		
+		
+Output:-
+
+
+ Enter the first number:-3
+
+ Enter the second number:-5
+
+ Enter the third number:-8
+ Swap is:- 583
+
+52. WAP to print swap two variable without using third variable.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b;
+	printf("\n Enter the first number:-");
+	scanf("%d",&a);
+	printf("\n Enter the second number:-");
+	scanf("%d",&b);
+	printf(" Swap is:- %d %d",b,a);
+	getch();
+		}
+
+Output:-
+
+
+ Enter the first number:-9
+
+ Enter the second number:-8
+ Swap is:- 8 9
+
+53. WAP to print the following pattern.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j;
+for(i=1;i<=5;i++)
+{
+	printf("\n");
+	for(j=1;j<=5;j++)
+	{
+		printf("%d",i);
+		}
+		}
+	getch();
+		}
+		
+Output:-
+
+11111
+22222
+33333
+44444
+55555
+
+54. WAP to check whether a number is palindrome or not a palindrome.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,n,r,rev=0;
+printf("\n Enter the number:-");
+scanf("%d",&n);
+a=n;
+while(n>0)
+{
+	r=n%10;
+	rev=rev*10+r;
+	{
+		n=n/10;
+	}
+}
+if(a==rev)
+printf("\n is a palindrome number");
+else
+printf("\n is not a palindrome number");
+getch();
+}
+		
+
+Output:-
+
+
+ Enter the number:-121
+
+ is a palindrome number
+
+ Enter the number:-12345
+
+ is not a palindrome number
+
+55. WAP to print adding two number by using function.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+void add(int,int)
+printf("\n Enter the first number:-");
+scanf("%d",&a);
+printf("\n Enter the second number:-");
+scanf("%d",&b);
+add(a,b);
+}
+getch();
+}
+void add(int a,int b)
+{
+	int c;
+	c=a+b;
+	printf("\n The sum is:- %d",c);
+	}
+	
+	
+		
+Output:-
+
+Enter the first number:-5
+Enter the second number:-6
+The sum is:-14
+
+56. WAP to print substraction two number by using function.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+void sub(int,int)
+printf("\n Enter the first number:-");
+scanf("%d",&a);
+printf("\n Enter the second number:-");
+scanf("%d",&b);
+sub(a,b);
+}
+getch();
+}
+void sub(int a,int b)
+{
+	int c;
+	c=a-b;
+	printf("\n substraction is:- %d",c);
+	}
+	
+	
+Output:-
+
+Enter the first number:-5
+Enter the second number:-6
+The sum is:- -1
+
+57. WAP to print multiplication two number by using function.		
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+void mul(int,int)
+printf("\n Enter the first number:-");
+scanf("%d",&a);
+printf("\n Enter the second number:-");
+scanf("%d",&b);
+mul(a,b);
+}
+getch();
+}
+void mul(int a,int b)
+{
+	int c;
+	c=a*b;
+	printf("\n multiplication is:- %d",c);
+}
+	
+
+Output:-
+
+Enter the first number:-5
+Enter the second number:-6
+The sum is:-30
+
+58. WAP to print Division two number by using function
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+void div(int,int)
+printf("\n Enter the first number:-");
+scanf("%d",&a);
+printf("\n Enter the second number:-");
+scanf("%d",&b);
+div(a,b);
+}
+getch();
+}
+void div(int a,int b)
+{
+	int c;
+	c=a/b;
+	printf("\n Division is:- %d",c);
+}
+	
+	
+		
+Output:-
+
+Enter the first number:-5
+Enter the second number:-6
+The sum is:-0
+
+59. WAP to enter any character . if the entered character is in lower case then convert it into upper case and if it a lower case caracter then convert it into upper case.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char ch;
+	printf("\n Enter any character:-");
+	scanf("%c",&ch);
+	if(ch>='A' && ch<='Z')
+	printf("\nThe Enter character was in upper case.In lower case it is:-%c",(ch+32));
+	else
+	printf("\nThe Enter character was in lower case.In upper case it is:-%c",(ch-32));
+	getch() ;
+	}
+	
+Output:-
+
+
+ Enter any character:-A
+
+The Enter character was in upper case.In lower case it is:-a
+
+ Enter any character:-a
+
+The Enter character was in lower case.In upper case it is:-A
+
+
+60. strcmp
+
+
+				
+						
+		
+				
+		
+		
+		
+				
